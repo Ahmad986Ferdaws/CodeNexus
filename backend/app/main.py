@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.openapi.docs import get_swagger_ui_html
 
 from app.api.router import api_router
-from app.core.config import settings
+from app.core.config import settingsaa
 from app.core.events import create_start_app_handler, create_stop_app_handler
 
 def get_application() -> FastAPI:
